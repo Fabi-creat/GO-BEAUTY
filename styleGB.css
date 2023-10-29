@@ -1,0 +1,268 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200;1,700&family=Permanent+Marker&family=Poppins:wght@400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-image:
+    url("../img/SalonGB.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+    font-weight: 1000;
+    list-style: none;
+    text-decoration: none;
+}
+
+.menu .navbar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu .navbar ul li a {
+    font-size: 25px;
+    padding: 20px;
+    color: white;
+    display: block;
+    font-weight: 800;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* .menu .navbar ul li a:hover {
+    color: black;
+} */
+
+#menu {
+    display: none;
+}
+
+.menu-icono {
+    width: 25px;
+}
+
+.menu label {
+    cursor: pointer;
+    display: none;
+}
+
+.header-content {
+    text-align: center;
+}
+
+.header-content h1 {
+    font-size: 75px;
+    line-height: 80px;
+    color: white;
+    text-transform: uppercase;
+    margin-bottom: 35px;
+}
+
+.header-content p {
+    font-size: 15px;
+    color: white;
+    padding: 0 250px;
+    margin-bottom: 30px;
+    font-weight: 500;
+}
+
+.btn-1 {
+    display: inline-block;
+    padding: 11px 35px;
+    background-color: black;
+    color: #F9FAFC;
+    text-transform: uppercase;
+}
+
+/* .btn-1:hover {
+    background-color: #ebad8d;
+} */
+
+.services {
+    padding: 100px 0;
+    background: #E1E2E6;
+    position: relative;
+}
+
+.services-content {
+    text-align: center;
+}
+
+.services-content h2 {
+    font-size: 55px;
+    line-height: 70px;
+    color: black;
+    text-transform: uppercase;
+    padding: 0 250px;
+    margin-bottom: 15px;
+}
+
+.text-p {
+    font-size: 16px;
+    color: #414247;
+    padding: 0 250px;
+    margin-bottom: 35px;
+}
+
+.services-group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.services-1 {
+    padding: 25px;
+}
+
+.services-1 img {
+    width: 200px;
+    border-radius: 15px;
+    margin-bottom: 15px;
+}
+
+.services-1 h3 {
+    margin-bottom: 10px;
+}
+
+footer {
+    padding: 100px 0;
+    background: black;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links h3 {
+    font-size: 18px;
+    color: black;
+    margin-bottom: 10px;
+    color: #F9FAFC;
+}
+
+.links p {
+    font-size: 16px;
+    display: block;
+    margin-bottom: 10px;
+    color: #F9FAFC;
+}
+
+.icons i {
+    display: block;
+    margin: 20px 0;
+    font-size: 22px;
+    color: white;
+}
+
+
+
+/* Testimonios */
+
+.testimonios {
+    padding: 40px 40px 80px 40px;
+  }
+  
+  .testimonios .carousel {
+    max-width: 800px;
+  }
+  
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .testimonio-imagen {
+    height: 300px;
+    width: 300px;
+    margin: 20px 10px 20px 10px;
+  }
+  
+  
+  
+  .testimonio-info {
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  .testimonio-info p {
+    margin-bottom: 0;
+  }
+  
+  .testimonio-footer .cliente {
+    font-size: 1.5rem;
+  }
+
+  .testimonio-info .cargo {
+    font-size: 1.8rem;
+    color: #050505;
+  }
+  
+  
+
+
+
+
+  /* Adaptable (Responsivo) */
+
+@media screen and (max-width: 400px) {
+    .overlay p {
+      font-size: 18px;
+    }
+  
+    .overlay i {
+      font-size: 40px;
+    }
+  }
+  
+  @media screen and (max-width: 767px) {
+    .navbar-brand {
+      display: none;
+    }
+  }
+  
+  @media screen and (min-width: 700px) {
+    .hero-inferior-imagen {
+      max-width: 600px;
+    }
+  }

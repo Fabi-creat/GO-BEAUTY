@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Go Beauty</title>
+
+    <!-- Link to css -->
+    <link rel="stylesheet" href="css/styleGB.css">
+
+    <!-- Remixicons link -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+     <!-- Incluye los estilos de Bootstrap CSS -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+
+
+</head>
+<body>
+    <header class="header">
+        <div class="menu container">
+            <a href="#" class="logo">Logo</a>
+            <input type="checkbox" id="menu">
+            <label for="menu">
+                <img src="img/menu.png" alt="" class="menu-icono">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="indexGB.html">Inicio</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="cuidadosGB.html">Cuidados</a></li>
+                    <li><a href="citaGB.html">Agendar Cita</a></li>
+                    <li><a href="#">Productos</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <h1>Go Beauty</h1>
+            <p>
+                Bienvenidas al salón de belleza "Go Beauty", nosotros te brindaremos la atención y los  
+                resultados que siempre has deseado. Contamos con los mejores productos y herramientas 
+                para potenciar tu imagen. Además de contamos con la estilista profesional Gricelda Pérez, quién
+                cuenta con una trayectoria de más de 15 años en la industria, cuentan con diversas capacitaciones 
+                y diplomados en la materia. Agenda una cita con nosotros y luce siempre hermosa!!!
+            </p>
+            <a href="#" class="btn-1">Agendar cita</a>
+        </div>
+    </header>
+
+    <section class="services">
+      <div class="services-content container">
+          <h2>Nuestros Servicios</h2>
+          
+
+ <!-- Carrusel -->
+ <div id="testimonios-carrusel" class="carousel carousel-dark slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="img/Tintes.jpeg" alt="Foto de Tinte">
+        <div class="testimonio-info">
+          <p class="cargo">Tintes</div>
+        <p class="testimonio-texto">Conseguimos el color que desees, usando diferentes técnicas y con los mejores productos para cuidar tu cabello.</p>
+      </div>
+    </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="img/Peinado.jpeg" alt="Foto de Peinado">
+          <div class="testimonio-info">
+          <p class="cargo">Peinados</p>
+          </div>
+          <p class="testimonio-texto">Hacemos alto peinado, peinados casuales, formales, recojidos, ondas, trenzas,  wet look etc...</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="container">
+          <img class="testimonio-imagen rounded-circle" src="img/Maquillaje.jpeg" alt="Foto de maquillaje">
+          <div class="testimonio-info">
+            <p class="cargo">Maquillaje</p>
+          </div>
+          <p class="testimonio-texto">Nos especializamos en maquillaje para eventos, pero tambien hacemos maquillaje editorial, de fantasía, bodas etc...</p>
+      </div>
+    </div>
+
+    <div class="carousel-item">
+      <div class="container">
+        <img class="testimonio-imagen rounded-circle" src="img/Pedicure.jpeg" alt="Foto de pedicure">
+        <div class="testimonio-info">
+          <p class="cargo">Manicura y Pedicura</p>
+        </div>
+        <p class="testimonio-texto">Le damos un trato a tus pies y manos como de la realeza, usamos los mejores productos y realizamos el proceso con sumo cuidado.</p>
+    </div>
+  </div>
+  <div class="carousel-item">
+    <div class="container">
+      <img class="testimonio-imagen rounded-circle" src="img/Permacologia .jpeg" alt="Foto de rizos">
+      <div class="testimonio-info">
+        <p class="cargo">Permacología</p>
+      </div>
+      <p class="testimonio-texto">Realizamos bases, alaciados y trtamientos capilares, simpre con el uso de productos gentiles con tu cabello.</p>
+  </div>
+</div>
+<div class="carousel-item">
+  <div class="container">
+    <img class="testimonio-imagen rounded-circle" src="img/Uñas.jpeg" alt="Foto de uñas">
+    <div class="testimonio-info">
+      <p class="cargo">Uñas</p>
+    </div>
+    <p class="testimonio-texto">Uñas de acrílico, de gel, francesas, almendradas, stiletto, fantasia y muchas más.</p>
+</div>
+</div>
+<div class="carousel-item">
+  <div class="container">
+    <img class="testimonio-imagen rounded-circle" src="img/Barberia.jpeg" alt="Foto de base">
+    <div class="testimonio-info">
+      <p class="cargo">Barberia</p>
+    </div>
+    <p class="testimonio-texto">Cortes de cabello, bases, tintes, diseño de barba y ceja.</p>
+</div>
+</div>
+  
+                <!-- Botones de control -->
+                
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+                </button>
+                </div>
+                </section> 
+
+                 <!-- Scripts de Bootstrap  -->
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+                <script>
+                // Inicialización
+                var myCarousel = new bootstrap.Carousel(document.getElementById('testimonios-carrusel'), {
+                interval: 5000 // Cambia el intervalo si deseas que las imágenes se cambien más rápido o más lento (en milisegundos) 
+              });
+              </script>
+              </section>
+
+<footer class="footer">
+  <div class="footer-content container">
+      <div class="links">
+          <h3>Horario</h3>
+          <p>De Lunes a Sábado: 10:00 am - 7:30 pm </p>
+          <p>Domingos: 10:30 am - 4:30 pm</p>
+      </div>
+      <div class="links">
+          <h3>Direccion</h3>
+          <p>Calle Narciso Mendoza</p>
+          <p>Unidad habitacional Bosques</p>
+      </div>
+      <div class="icons">
+          <src href="#src"><i class="ri-facebook-box-line"></i>      
+            <a href="https://www.instagram.com/sonrie_faby/?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" target="_blank" rel="noopener noreferrer"></a>
+          </a>
+
+          <a href="#"><i class="ri-instagram-line"></i></a>            
+       
+          <a href="#"><i class="ri-tiktok-line"></i></a>
+      </div>
+
+  </div>
+</footer>
+
+
+</body>
+</html>
